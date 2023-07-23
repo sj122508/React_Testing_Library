@@ -10,6 +10,8 @@ export const Skill = (props) => {
         }, 1500)
     }, [])
 
+    
+
     return (
         <>
             <ul>
