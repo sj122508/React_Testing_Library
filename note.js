@@ -260,8 +260,70 @@
 // ************************ USER INTERACTIONS ************************
 // ************************ USER INTERACTIONS ************************
 
+// Series 35, 36, and 37
 // user-event is a library that provides a set of custom events that you can fire on DOM nodes to simulate real user interactions.
 // user-event is a wrapper around fireEvent with a simpler API.
+// All user events are asynchronous and will return a promise that resolves when all the event handlers have finished executing.
+
+// Convenience APIs
+// userEvent.click(element, init)
+// userEvent.dblClick(element, init)
+// userEvent.type(element, text, [options])
+// userEvent.clear(element)
+// userEvent.paste(element, text, [options])
+// userEvent.upload(element, fileOrFiles, [options])
+// userEvent.tab()
+// userEvent.hover(element)
+// userEvent.unhover(element)
+// userEvent.selectOptions(element, values)
+// userEvent.deselectOptions(element, values)
+// userEvent.clickOptions(element, values)
+
+// Pointer APIs
+// userEvent.pointerDown(element, init)
+// userEvent.pointerUp(element, init)
+// userEvent.pointerMove(element, init)
+// userEvent.pointerOver(element, init)
+// userEvent.pointerEnter(element, init)
+// userEvent.pointerLeave(element, init)
+// userEvent.pointerCancel(element, init)
+// userEvent.pointerOut(element, init)
+// userEvent.pointerUp(element, init)
+// userEvent.pointerDown(element, init)
+
+
+// ************************ PROVIDER ************************
+// ************************ PROVIDER ************************
+// ************************ PROVIDER ************************
+// ************************ PROVIDER ************************
+
+// Provider is a component that allows you to wrap your application in a context provider.
+// Wrap your application in a Provider to make the context available throughout the component tree.
+
+// ************************ RENDER HOOK ************************
+// ************************ RENDER HOOK ************************
+// ************************ RENDER HOOK ************************
+// ************************ RENDER HOOK ************************
+
+// renderHook is a function that allows you to test hooks in isolation.
+// renderHook returns an object with the following properties:
+// result: the result of the hook that was passed to renderHook.
+// waitForNextUpdate: a function that returns a promise which resolves the next time the hook updates.
+// waitForValueToChange: a function that returns a promise which resolves the next time the hook returns a value that is not deeply equal to the previous value.
+// unmount: a function that unmounts the rendered hook.
+// rerender: a function that rerenders the hook with the provided options.
+// debug: a function that logs the current state of the hook to the console.
+// waitFor: a function that returns a promise which resolves when the provided callback does not throw an error.
+
+// ************************ MOCKS ************************
+// ************************ MOCKS ************************
+// ************************ MOCKS ************************
+// ************************ MOCKS ************************
+
+// Series 44, 45, 46, 47
+// Mock Service Worker (MSW) is a library that allows you to mock API requests in your tests.
+// MSW is a library that allows you to mock API requests in your tests.
+// npm install msw --save-dev
 
 
 
