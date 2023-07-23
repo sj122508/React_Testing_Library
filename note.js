@@ -255,9 +255,6 @@
 // The Testing Playground is a tool that allows you to interact with the DOM tree outside of your tests.
 
 
-
-
-
 // ************************ USER INTERACTIONS ************************
 // ************************ USER INTERACTIONS ************************
 // ************************ USER INTERACTIONS ************************
